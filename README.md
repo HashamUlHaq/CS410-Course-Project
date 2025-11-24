@@ -3,6 +3,9 @@
 
 `streamlit run app.app.py`
 
+# Changing config
+`src/config.py` file contains all the basic config including dataset paths, models, batch size etc.
+
 # Build indexes
 
 Indexes are aleardy provided in data - You'll see two files:

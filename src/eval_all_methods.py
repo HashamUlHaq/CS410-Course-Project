@@ -20,7 +20,7 @@ def main():
         qrels,
         k_prec=10,
         k_ndcg=10,
-        k_recall=50,
+        k_recall=10,
     )
 
     for method_name, metrics in metrics_by_method.items():

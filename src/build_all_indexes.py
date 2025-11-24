@@ -22,7 +22,7 @@ def main():
     print("BM25 index built under:", DATA_DIR / "bm25_index")
 
     # 3. Build / rebuild Dense (BioBERT + FAISS) index
-    print("[3/3] Building dense (BioBERT + FAISS) index ...")
+    print("[3/3] Building dense (Dense + FAISS) index ...")
     DenseRetriever.build(docs)
     print("Dense FAISS index written to:", FAISS_INDEX_PATH)
 
